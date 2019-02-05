@@ -85,6 +85,12 @@ body {
                 0 0 0 135px #764DFA;
     animation-name: colobok;
     animation-duration: 6s;
+    transition: 1s;
+}
+.header .col-2 .avatar .img:hover {
+    box-shadow: 0 0 0 30px #fff,
+    0 0 0 120px #764DFA,
+    0 0 0 135px #fff;
 }
 @keyframes colobok {
     from {transform: rotateY(-360deg);}
@@ -93,9 +99,9 @@ body {
 }
 .header .col-2 .info {
     max-width: 600px;
+    text-align: center;
 }
 .header .col-2 .info .text {
-    text-align: center;
     text-transform: uppercase;
     font-size: 24px;
     line-height: 1.25em;
@@ -236,4 +242,167 @@ body {
     0% {transform: translateY(-4%);}
     50% {transform: translateY(4%);}
     100% {transform: translateY(-4%);}
+}
+.header .btn-save-resume {
+    font-family: Base, Arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 40px;
+    width: 200px;
+    text-align: center;
+    background: #764DFA;
+    color: #fff;
+    border-radius: 20px;
+    margin: 20px 0 0 0;
+    transition: 1s;
+    border: 1px solid #fff;
+}
+.header .btn-save-resume:hover {
+    border: 1px solid #764DFA;
+    color: #764DFA;
+    background: #fff;
+}
+.h2-title {
+    font-size: 24px;
+    line-height: 1em;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 0 3px 0;
+    border-bottom: 2px solid #764DFA;
+
+}
+
+.portfolio {
+    margin: 100px 0 100px 0;
+    text-align: center;
+}
+.portfolio .list {
+    margin: 25px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio .item {
+    background: #fff;
+    width: 48%;
+    margin: 50px 4% 0 0;
+}
+.portfolio .item:nth-of-type(n+5) {
+    display: none;
+}
+.portfolio .item:nth-of-type(2n) {
+    margin: 50px 0 0 0;
+}
+.portfolio .item .link {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    transition: 1s;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
+}
+.portfolio .item .link:hover {
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(118,77,250,1);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(118,77,250,1);
+    box-shadow: 0px 0px 20px 5px rgba(118,77,250,1);
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.portfolio .item .link .img {
+    width: 100%;
+    height: auto;
+}
+.portfolio .item .link .info {
+    height: 100%;
+    width: 65%;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    /*right: 0;*/
+    right: -65%;
+    background: #fff;
+    transition: 1s;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+.portfolio .item .link:hover .info {
+    right: 0;
+}
+.portfolio .item .link .info .h4-title {
+    font-family: Core-Sans-N65-Bold, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1em;
+    color: #000;
+}
+.portfolio .item .link .info .description {
+    font-family: Base, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.25em;
+    text-align: left;
+    margin: 20px 0 0 0;
+    color: #000;
+}
+.portfolio .item .link .info .list {
+    margin: 20px 0 0 15px;
+    display: block;
+    text-align: left;
+    font-family: Core-Sans-N65-Bold, Arial, sans-serif;
+    font-size: 14px;
+    list-style-type: disc;
+    color: #000000;
+
+}
+.portfolio .item .link .info .item {
+    margin: 5px 0 0 0;
+    width: auto;
+    color: #764DFA;
+    font-family: Base, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1em;
+}
+.portfolio .item .link .info .item span {
+    color: #000;
+}
+.portfolio .btn-show-more {
+    display: inline-block;
+    width: 100px;
+    margin: 40px auto 0 auto;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    background: #764DFA;
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+}
+.portfolio .btn-show-more:after,
+.portfolio .btn-show-more:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #764DFA;
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    border-radius: 50%;
+    transition: 1s;
+    opacity: 0;
+}
+.portfolio .btn-show-more:before {
+    width: 15px;
+    height: 15px;
+    right: -55px;
+}
+.portfolio .btn-show-more:hover:after,
+.portfolio .btn-show-more:hover::before {
+    opacity: 1;
 }
