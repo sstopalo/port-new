@@ -36,9 +36,16 @@
         var target = this.hash,
             $target = $(target);
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top - 55
+            'scrollTop': $target.offset().top - 50
         }, 600, 'swing', function () {
         });
+    });
+
+    // показ всех примеров работ при клике на кнопку
+    $('.btn-show-more-js').on('click', function (e) {
+        e.preventDefault();
+        $(this).hide();
+        $('.item-works-js').show();
     });
 
 })(jQuery);
