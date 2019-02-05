@@ -63,6 +63,12 @@ body {
     box-sizing: padding-box;
     position: relative;
 }
+.main-wrap--padding-hide-left {
+    padding: 0 0 0 75px;
+}
+.main-wrap--padding-hide-right {
+    padding: 0 75px 0 0;
+}
 .header .col-2 {
     height: 100vh;
     min-height: 700px;
@@ -431,4 +437,72 @@ body {
 }
 .skills .item:hover {
     transform: rotate(20deg);
+}
+.education {
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+.education .timeline {
+    margin: 60px 0 0 0 ;
+    border-left: 1px solid #764DFA;
+}
+.education .timeline--right {
+    border-left: none;
+    border-right: 1px solid #764DFA;
+}
+.education .timeline .item {
+    position: relative;
+    display: flex;
+    min-height: 170px;
+    margin: 0 0 25px 0;
+}
+.education .timeline-img {
+    width: 140px;
+    height: 140px;
+    margin-left: -70px;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    border-radius: 100%;
+    text-align: center;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(118,77,250,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(118,77,250,1);
+    box-shadow: 0px 0px 10px 1px rgba(118,77,250,1);
+}
+.education .timeline-img--right {
+    margin-left: 0;
+    margin-right: -70px;
+    left: auto;
+    right: 0;
+}
+.education .timeline-img .title-h4 {
+    margin-top: 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.education .timeline-info {
+    padding: 10px 25px 20px 100px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+.education .timeline-info--right {
+    padding: 10px 100px 20px 20px;
+    text-align: right;
+}
+.education .timeline-info .title .title-h4 {
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Core-Sans-N65-Bold, Arial, sans-serif;
+}
+.education .timeline-info .title .title-h5 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    color: #764DFA;
+}
+.education .timeline-info .text {
+    font-size: 16px;
+    line-height: 1.25em;
 }
