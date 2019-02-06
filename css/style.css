@@ -537,3 +537,14 @@ body {
     color: #fff;
     font-family: Base, Arial, sans-serif;
 }
+.footer {
+    background: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer .copyright {
+    font-size: 18px;
+    line-height: 1.25em;
+    color: #fff;
+    font-family: Base, Arial, sans-serif;
+}
