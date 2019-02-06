@@ -276,9 +276,11 @@ body {
     display: inline-block;
     padding: 0 0 3px 0;
     border-bottom: 2px solid #764DFA;
-
 }
-
+.h2-title--white {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
 .portfolio {
     margin: 100px 0 0 0;
     text-align: center;
@@ -456,6 +458,9 @@ body {
     min-height: 170px;
     margin: 0 0 25px 0;
 }
+.education .timeline--right .item:last-of-type {
+    margin: 0;
+}
 .education .timeline-img {
     width: 140px;
     height: 140px;
@@ -505,4 +510,30 @@ body {
 .education .timeline-info .text {
     font-size: 16px;
     line-height: 1.25em;
+}
+.contact {
+    background: #764DFA;
+    text-align: center;
+    padding: 100px 0;
+}
+.contact .list {
+    margin: 55px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .list .item {
+    text-align: center;
+    width: 33.3%;
+}
+.contact .list .item .img {
+    width: auto;
+    height: 60px;
+}
+.contact .list .item .text {
+    margin: 15px 0 0 0;
+    font-size: 24px;
+    line-height: 1em;
+    color: #fff;
+    font-family: Base, Arial, sans-serif;
 }
