@@ -1,0 +1,735 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+form, fieldset, input, p, blockquote, table, th, td, embed, object {
+    padding: 0;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img, abbr {
+    border: 0;
+}
+address, caption, cite, code, dfn, em,
+h1, h2, h3, h4, h5, h6, strong, th, var {
+    font-weight: normal;
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+}
+caption, th {
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.0em;
+}
+q:before, q:after {
+    content: '';
+}
+a, ins {
+    text-decoration: none;
+}
+body {
+    /*position: relative;*/
+    font-family: Roboto-Regular, sans-serif;
+}
+
+/*header*/
+
+.header {
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/header-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 78px 0 190px 0;
+}
+.nav-menu {
+    width: calc(100% - 40px);
+    background: #0e0f0f;
+    padding: 27px 20px 16px 20px;
+    position: absolute;
+    top: 0;
+}
+.nav-menu-fix {
+    width: calc(100% - 40px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.main-menu-list {
+    max-width: 950px;
+    margin: 0 auto;
+    border-radius: 35px;
+    background: #e30613;
+    padding: 0 60px 0 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-menu-item {
+
+}
+.main-menu-link {
+    color: #fff;
+    font-size: 18px;
+    line-height: 35px;
+}
+.wrap-1540 {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.wrap-header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 70px 0 0 0;
+}
+.wrap-header-logo--huawei {
+    max-width: 583px;
+}
+.wrap-header-logo--forbes {
+    max-width: 188px;
+}
+.wrap-header-logo--img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.wrap-video {
+    width: 1302px;
+    height: 634px;
+    margin: 75px auto 0 auto;
+    position: relative;
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/border-video.png) no-repeat center center;
+}
+.thumb-wrap {
+    position: relative;
+    /* width: 100%; */
+    height: 0;
+    padding-bottom: 49.25%;
+    padding-top: 0;
+    overflow: hidden;
+}
+.thumb-wrap iframe {
+    position: absolute;
+    z-index: 2;
+    top: 37px;
+    left: 63px;
+    width: 90%;
+    height: 89%;
+}
+.video-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/video-cover.png) no-repeat center center;
+}
+.header-video {
+    width: calc(100% - 80px);
+    height: 590px;
+    position: relative;
+    z-index: 1;
+    border-radius: 72px;
+    background-image: url('http://cdn.forbes.ru/special/huaweimate20pro/img/border-video.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 21px 40px;
+    background-color: #000;
+}
+.header-video-border {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+.toggle-main-menu {
+    background-color: transparent;
+    width: 43px;
+    min-width: 43px;
+    height: 24px;
+    border: 0;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    position: relative;
+    outline: transparent solid 0;
+    opacity: 1;
+    margin-top: 6px;
+}
+.toggle-main-menu:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #fff;
+    top: 6px;
+}
+.main-menu-item--toggle {
+    display: none;
+}
+.main-menu-mob {
+    position: absolute;
+    top: 60px;
+    z-index: 20;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.main-menu-mob-item {
+    display: block;
+    width: 220px;
+}
+.main-menu-mob-link {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 20px 0 20px 20px;
+    color: #fff;
+    background: #e30613;
+    text-decoration: none;
+    font-size: 18px;
+}
+.open-menu {
+    display: block;
+}
+/*interview*/
+
+.interview {
+}
+.interview--1 {
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/bg1-desk.jpg) no-repeat top left/cover;
+    padding: 195px 0 185px 0;
+}
+.interview--2 {
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/bg2-desk-1-1.jpg) no-repeat top right/cover;
+    padding: 209px 0 221px 0;
+}
+.interview--3 {
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/bg3-desk.jpg) no-repeat top left/cover;
+    padding: 204px 0 174px 0;
+}
+.interview--4 {
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/bg4-desk.jpg) no-repeat top right/cover;
+    padding: 163px 0 103px 0;
+}
+.wrapper-1460 {
+    max-width: 1460px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.interview-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap-btn-read-more {
+    width: 100%;
+}
+.interview-wrap--right {
+    justify-content: flex-end;
+}
+.interview-wrap--left {
+    justify-content: flex-start;
+}
+.interview-wrap-img {
+    display: none;
+    width: 100%;
+    order: 2;
+}
+.interview-wrap-hide {
+
+}
+.interview-wrap-hide--1 {
+    width: calc((100% - 40%) - 130px );
+}
+.interview-wrap-hide--2 {
+    width: calc((100% - 36%) - 130px );
+}
+.interview-wrap-hide--3 {
+    width: calc((100% - 40%) - 130px );
+}
+.interview-wrap-hide--4 {
+    width: calc((100% - 40%) - 130px );
+}
+.interview-wrap-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.interview-wrap-text {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.interview-wrap-text--1 {
+    width: 40%;
+    padding: 0 50px 0 80px;
+}
+.interview-wrap-text--2 {
+    width: 36%;
+    padding: 0 50px 0 80px;
+}
+.interview-wrap-text--3 {
+    width: 40%;
+    padding: 0 50px 0 80px;
+}
+.interview-wrap-text--4 {
+    width: 40%;
+    padding: 0 50px 0 80px;
+}
+.interview-introduction {
+    display: block;
+    width: 100%;
+    font-family: Myriad-Pro-Light, sans-serif;
+    font-size: 38px;
+    line-height: 1.32em;
+    text-align: left;
+    position: relative;
+}
+.interview-introduction:before {
+    content: '«';
+    color: #7b7b7e;
+    font-family: Myriad-Pro-Light, sans-serif;
+    font-size: 130px;
+    position: absolute;
+    top: 0;
+    left: -80px;
+}
+.interview-introduction:after {
+    content: '»';
+    color: #7b7b7e;
+    font-family: Myriad-Pro-Light, sans-serif;
+    font-size: 130px;
+    position: absolute;
+    bottom: 0;
+    right: -50px;
+}
+.interview-introduction-full {
+    font-family: Scada-Italic, sans-serif;
+    font-size: 28px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.interview-question {
+    font-size: 24px;
+    line-height: 1.25em;
+    text-align: justify;
+}
+.interview-question--margin-top {
+    margin: 80px 0 0 0;
+}
+.interview-answer {
+    margin: 30px 0 0 0;
+    font-size: 18px;
+    line-height: 1.55em;
+    text-align: justify;
+}
+.btn-read-more {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 50px;
+    padding: 0 35px;
+    border-radius: 50px;
+    background: #e2001a;
+    color: #fff;
+    transition: 0.5s;
+    margin: 110px 0 0 0;
+}
+.btn-read-more:hover {
+    opacity: 0.8;
+}
+
+/*all-interview*/
+
+.all-interview {
+    background: #fff;
+    position: relative;
+    z-index: 9;
+    display: none;
+}
+.wrap-800 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.wrap-800--with-padding {
+    padding: 0 20px;
+}
+.navigation-top {
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.navigation-top-fix-top {
+    position: fixed;
+    top: 78px;
+    left: 0;
+    z-index: 10;
+    background: #fff;
+}
+.navigation-top-fix-bottom {
+    position: absolute;
+    bottom: 80px;
+    top: auto;
+}
+.btn-to-top {
+    display: block;
+    width: 91%;
+    height: 100%;
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/up.png) no-repeat center center;
+
+}
+.btn-to-close {
+    display: block;
+    width: 9%;
+    height: 100%;
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/close.png) no-repeat center center;
+}
+.wrap-text-interview {
+    padding: 190px 0;
+    color: #000;
+}
+.interview-question--margin-top-small {
+    margin-top: 30px;
+}
+.navigation-bottom {
+    height: 80px;
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.navigation-bottom-fix-top {
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+.navigation-bottom-fix-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.navigation-bottom-wrap {
+    display: flex;
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+.btn-to-bottom {
+    display: block;
+    width: 91%;
+    height: 100%;
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/down.png) no-repeat center center;
+
+}
+.bn-to-hidden {
+    display: block;
+    width: 9%;
+    height: 100%;
+}
+
+/*gallery-slider*/
+
+.gallery-slider {
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/header-bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gallery-slider--wrap {
+    padding: 150px 0;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.flipster__button--next {
+    width: 42px;
+    height: 80px;
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/arrow.png) no-repeat center;
+    background-size: 50%;
+    right: 25%;
+    top: 46%;
+    opacity: 1;
+    outline: none;
+}
+.flipster__button--prev {
+    width: 42px;
+    height: 80px;
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/arrow.png) no-repeat center;
+    background-size: 50%;
+    left: 25%;
+    top: 46%;
+    opacity: 1;
+    outline: none;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.flipster--carousel .flipster__item--future-1 .flipster__item__content {
+    transform: translateX(30%) rotateY(0deg) scale(.8);
+}
+.flipster--carousel .flipster__item--future-2 .flipster__item__content {
+    transform: translateX(50%) rotateY(0deg) scale(.65);
+}
+.flipster--carousel .flipster__item--past-1 .flipster__item__content {
+    transform: translateX(-30%) rotateY(0deg) scale(.8);
+}
+.flipster--carousel .flipster__item--past-2 .flipster__item__content {
+    transform: translateX(-50%) rotateY(0deg) scale(.65);
+}
+
+.flipster--carousel .flipster__item--past-1, .flipster--carousel .flipster__item--future-1 {
+    opacity: 1;
+    filter: grayscale(100%);
+    filter: url(desaturate.svg#greyscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+.flipster--carousel .flipster__item--past, .flipster--carousel .flipster__item--future-2 {
+    opacity: 1;
+    filter: grayscale(100%);
+    filter: url(desaturate.svg#greyscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+.flipster--carousel .flipster__item--past-2, .flipster--carousel .flipster__item--future-2 {
+    opacity: 1;
+}
+.wrap-1400 {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/*info-block*/
+.wrapper-1596 {
+    max-width: 1596px;
+    margin: 0 auto;
+}
+
+.info-block {
+    background: #000;
+}
+.info-block--wrap {
+    margin-left: 25px;
+    background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/huawei-photo--decktop.png) no-repeat bottom left;
+    position: relative;
+    height: 665px;
+}
+.info-block--img-logo {
+    display: block;
+    width: auto;
+}
+.info-block--img-tagline {
+    display: block;
+    width: auto;
+    margin: 40px 0 0 0;
+}
+.info-block--img-text {
+    display: block;
+    width: auto;
+    margin: 115px 0 0 0;
+    float: right;
+}
+.info-block--img-wrap {
+    left: 760px;
+    position: absolute;
+    bottom: 40px;
+}
+
+/*specifications-slider*/
+
+.specifications-slider {
+}
+.specification-list {
+}
+.specification-item {
+    position: relative;
+}
+.specification-item__wrap {
+    display: flex;
+    align-items: center;
+    height: 780px;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+.specification-item__white {
+    color: #000;
+    background: #fff;
+}
+.specification-item__black {
+    color: #fff;
+    background: #000;
+}
+.specification-item__left-1 {
+    width: 40%;
+}
+.specification-item__right-1 {
+    width: 40%;
+    margin: 0 0 0 20%;
+}
+.specification-item__left-2 {
+    width: 50%;
+}
+.specification-item__right-2 {
+    width: 40%;
+    margin: 0 0 0 10%;
+}
+.specification-item__left-3 {
+    width: 55%;
+}
+.specification-item__right-3 {
+    width: 35%;
+    margin: 0 0 0 10%;
+}
+.specification-item__left-4 {
+    width: 55%;
+}
+.specification-item__right-4 {
+    width: 35%;
+    margin: 0 0 0 10%;
+}
+.specification-item__left-5 {
+    width: 55%;
+}
+.specification-item__right-5 {
+    width: 35%;
+    margin: 0 0 0 10%;
+}
+.specification-item__img {
+    width: 100%;
+    height: auto;
+}
+.specification-item__title {
+    font-family: Scada-Bold, sans-serif;
+    font-size: 30px;
+    line-height: 1.26em;
+    margin: 0 0 55px 0;
+}
+.specification-item__description {
+    font-size: 20px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+.specification-list .slick-arrow {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    z-index: 9999;
+}
+.specification-list .slick-arrow.slick-prev {
+    background-image: url(http://cdn.forbes.ru/special/huaweimate20pro/img/specifications-slider-arrow-prev.png);
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    background-size: 30px;
+    left: 60px;
+}
+.specification-list .slick-arrow.slick-next {
+    background-image: url(http://cdn.forbes.ru/special/huaweimate20pro/img/specifications-slider-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    background-size: 30px;
+    right: 60px;
+}
+.slick-next:before,
+.slick-prev:before {
+    display: none;
+}
+/*footer*/
+
+.footer {
+    background: #000;
+}
+.wrap-800 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.footer-wrap {
+    padding: 160px 0;
+}
+.footer__learn-more-btn {
+    font-size: 30px;
+    display: block;
+    width: 350px;
+    background: #e2001a;
+    color: #fff;
+    line-height: 60px;
+    border-radius: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer__learn-more-btn:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.social-wrap {
+    margin: 115px 0 0 0;
+}
+.social-title {
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+}
+.social-list {
+    margin: 30px auto 0 auto;
+    display: flex;
+    max-width: 590px;
+}
+.social-item {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+.social-item:last-child {
+    margin-right: 0;
+}
+.social-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social-link--vk {
+    background-image: url(http://cdn.forbes.ru/special/huaweimate20pro/img/vk.png);
+}
+.social-link--fb{
+    background-image: url(http://cdn.forbes.ru/special/huaweimate20pro/img/fb.png);
+}
+.social-link--ig {
+    background-image: url(http://cdn.forbes.ru/special/huaweimate20pro/img/ig.png);
+}
+.social-link--yt {
+    background-image: url(http://cdn.forbes.ru/special/huaweimate20pro/img/yt.png);
+}
+.social-link--tw {
+    background-image: url(http://cdn.forbes.ru/special/huaweimate20pro/img/tw.png);
+}
+.social-link--od {
+    background-image: url(http://cdn.forbes.ru/special/huaweimate20pro/img/od.png);
+}
+.footer__forbes-logo {
+    display: block;
+    margin: 100px auto 0 auto ;
+    width: 200px;
+}
+.forbes-img {
+    width: 100%;
+    height: auto;
+}

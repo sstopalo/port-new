@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "BaseFont";  /* no free */
+  src: url("../fonts/HelveticaNeue.eot");
+  src: url("../fonts/HelveticaNeue.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/HelveticaNeue.woff") format("woff"),
+  url("../fonts/HelveticaNeue.ttf") format("truetype"),
+  url("../fonts/HelveticaNeue.svg#JournalRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BaseFontMedium";
+  src: url("../fonts/HelveticaNeue-Medium.eot");
+  src: url("../fonts/HelveticaNeue-Medium.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/HelveticaNeue-Medium.woff") format("woff"),
+  url("../fonts/HelveticaNeue-Medium.ttf") format("truetype"),
+  url("../fonts/HelveticaNeue-Medium.svg#JournalRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaLight";
+  src: url("../fonts/HelveticaLight.eot");
+  src: url("../fonts/HelveticaLight.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/HelveticaLight.woff") format("woff"),
+  url("../fonts/HelveticaLight.ttf") format("truetype"),
+  url("../fonts/HelveticaLight.svg#JournalRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr-Roman";
+  src: url("../fonts/HelveticaNeueCyr-Roman.eot");
+  src: url("../fonts/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff"),
+  url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype"),
+  url("../fonts/HelveticaNeueCyr-Roman.svg#JournalRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Athelas-Italic"; /* no free */
+  src: url("../fonts/Athelas-Italic.eot");
+  src: url("../fonts/Athelas-Italic.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Athelas-Italic.woff") format("woff"),
+  url("../fonts/Athelas-Italic.ttf") format("truetype"),
+  url("../fonts/Athelas-Italic.svg#JournalRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Athelas-Bold"; /* no free */
+  src: url("../fonts/Athelas-Bold.eot");
+  src: url("../fonts/Athelas-Bold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Athelas-Bold.woff") format("woff"),
+  url("../fonts/Athelas-Bold.ttf") format("truetype"),
+  url("../fonts/Athelas-Bold.svg#JournalRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Athelas-Bold-Italic"; /* no free */
+  src: url("../fonts/Athelas-BoldItalic.eot");
+  src: url("../fonts/Athelas-BoldItalic.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Athelas-BoldItalic.woff") format("woff"),
+  url("../fonts/Athelas-BoldItalic.ttf") format("truetype"),
+  url("../fonts/Athelas-BoldItalic.svg#JournalRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Athelas-Regular"; /* no free */
+  src: url("../fonts/Athelas-Regular.eot");
+  src: url("../fonts/Athelas-Regular.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Athelas-Regular.woff") format("woff"),
+  url("../fonts/Athelas-Regular.ttf") format("truetype"),
+  url("../fonts/Athelas-Regular.svg#JournalRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GaramondPremrPro-ItDisp"; /* no free */
+  src: url("../fonts/GaramondPremrPro-ItDisp.eot");
+  src: url("../fonts/GaramondPremrPro-ItDisp.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/GaramondPremrPro-ItDisp.woff") format("woff"),
+  url("../fonts/GaramondPremrPro-ItDisp.ttf") format("truetype"),
+  url("../fonts/GaramondPremrPro-ItDisp.svg#JournalRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AvenirNextCyr-Medium"; /* no free */
+  src: url("../fonts/AvenirNextCyr-Medium.eot");
+  src: url("../fonts/AvenirNextCyr-Medium.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/AvenirNextCyr-Medium.woff") format("woff"),
+  url("../fonts/AvenirNextCyr-Medium.ttf") format("truetype"),
+  url("../fonts/AvenirNextCyr-Medium.svg#JournalRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoCondensed-Bold"; /* no free */
+  src: url("../fonts/RobotoCondensed-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-rs</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-rs" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M9.559,4.1 C7.049,1.45 3.669,0 0.049,0 L0.049,2.75 C2.945,2.75 5.649,3.9 7.724,6 C9.752,8.1 10.91,10.9 10.91,13.9 L13.566,13.9 C13.517,10.2 12.117,6.7 9.559,4.1 Z" id="Shape"></path>
+            <path d="M0,4.65 L0,7.4 C3.476,7.4 6.324,10.35 6.324,13.95 L8.98,13.95 C9.028,8.8 4.972,4.65 0,4.65 Z" id="Shape"></path>
+            <ellipse id="Oval" cx="1.883" cy="12.05" rx="1.883" ry="1.95"></ellipse>
+        </g>
+    </g>
+</svg>

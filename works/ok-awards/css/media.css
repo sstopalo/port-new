@@ -1,0 +1,795 @@
+@media screen and (max-width: 1300px) {
+    .site-list-first-item-fix {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .acmg-footer__acmg-list {
+        width: 70%;
+        margin: 0 15%;
+    }
+    .acmg-list {
+        width: 70%;
+    }
+    .acmg-list__item--social {
+        margin: 0 0 0 5%;
+    }
+    .nominations-list-link {
+        width: 95%;
+        padding: 15px 0 15px 5%;
+        font-size: 17px;
+        color: #1c1c1c;
+    }
+    .sub-nominations-list {
+        top: 50px;
+    }
+    .site-list-fix {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 968px) {
+    .main-block__block-articles {
+        padding: 0 40px;
+        max-width: -webkit-calc(100% - 80px);
+        max-width: calc(100% - 80px);
+        margin: 0;
+    }
+    .block-articles-list-wrap {
+        width: -webkit-calc(100% - 345px);
+        width: calc(100% - 345px);
+        margin: 0 45px 0 0;
+    }
+    .block-articles-item {
+        margin: 35px 0 0 0;
+        width: 100%;
+    }
+    .block-articles-item:nth-child(odd) {
+        margin-right: 0;
+    }
+    .block-articles-banner {
+        margin-top: 35px;
+    }
+    .site-list__item {
+        font-size: 14px;
+    }
+    .pop-up-nominee-wrap {
+        margin: 90px auto 20px auto;
+        padding: 40px;
+    }
+    .btn-close-pop-up-nominee {
+        top: -55px;
+        width: 20px;
+        height: 20px;
+    }
+    .btn-close-pop-up-nominee:before, .btn-close-pop-up-nominee:after {
+        left: 10px;
+        height: 20px;
+    }
+    .pop-up-nominee-name {
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+    .pop-up-nominee-description-wrap {
+        height: 125px;
+        margin-top: 15px;
+    }
+    .pop-up-nominee-description {
+        font-size: 12px;
+    }
+    .pop-up-nominee-btn-block {
+        margin-top: 31px;
+    }
+    .pop-up-btn-vote {
+        font-size: 16px;
+        padding: 0 0 13px 0;
+    }
+    .pop-up-link-file-ok {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    .pop-up-nominee-text-on-img {
+        font-size: 33px;
+        top: -15px;
+        right: -19px;
+    }
+    .pop-up-nominee-btn-block--ok {
+        margin-top: 20px;
+    }
+    .pop-up-nominee-social-wrap-list {
+        margin: 25px 0 0 0;
+    }
+    .pop-up-nominee-social-wrap-item {
+        width: 50px;
+        height: 50px;
+    }
+    .flipster__button--prev {
+        left: 18%;
+    }
+    .flipster__button--next {
+        right: 18%;
+    }
+    .flipster--coverflow .flipster__item__content img:only-child {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .flipster--coverflow .flipster__item--future .flipster__item__content {
+        -webkit-transform: scale(.75) rotateY(-38deg);
+        transform: scale(.75) rotateY(-38deg);
+    }
+    .flipster--coverflow .flipster__item--past .flipster__item__content {
+        -webkit-transform: scale(.75) rotateY(38deg);
+        transform: scale(.75) rotateY(38deg);
+    }
+
+}
+@media screen and (max-width: 768px){
+    .top-banner {
+        display: none;
+    }
+    .main-header {
+        height: auto;
+        background-image: url("../img/awards-bg-tablet.jpg");
+    }
+    .main-header::before, .main-header::after {
+        display: none;
+    }
+    .main-header__container {
+        width: 365px;
+        padding: 20.5px 0 37.5px 0;
+    }
+    .site-list {
+        width: 100%;
+        max-width: 365px;
+    }
+    .site-list-fix {
+        max-width: 1356px;
+        width: 95%;
+    }
+    .date-awards {
+        width: 190px;
+        margin: 114px 0 0 94px;
+    }
+    .date-awards::before {
+        width: 70px;
+    }
+    .date-awards span {
+        font-size: 14px;
+    }
+    .ok-awards-logo {
+        display: block;
+        width: 365px;
+        margin: 9px auto 0 auto;
+    }
+    .ok-awards-logo-img {
+        width: 100%;
+        height: auto;
+    }
+    .show-more {
+        width: 110px;
+        height: 50px;
+        margin: 64.5px auto 0 auto;
+        font-size: 16px;
+        -webkit-background-size: 3.5px 21.5px;
+        background-size: 3.5px 21.5px;
+    }
+    .acmg-footer__acmg-list {
+        margin: 0 2.5%;
+    }
+    .acmg-list {
+        width: 95%;
+    }
+    .acmg-list__item--social {
+        margin: 0;
+    }
+    .main-block {
+        width: 100%;
+        max-width: 585px;
+        padding: 0;
+    }
+    .about-awards {
+        margin: 88px auto 0 auto;
+    }
+    .h2 {
+        font-size: 23px;
+        line-height: 0.83;
+    }
+    .about-awards__body {
+        margin: 39px auto 0 auto;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .main-block__about-awards {
+        padding: 0 20px;
+        max-width: -webkit-calc(100% - 40px);
+        max-width: calc(100% - 40px);
+        margin: 0;
+    }
+    .about-awards-img-wrapper {
+        width: 52%;
+        max-width: none;
+        min-width: auto;
+        margin: 0 7% 0 0;
+    }
+    .about-awards__description {
+        width: 41%;
+        max-width: 338px;
+        padding: 49.5px 0 0 0;
+        -webkit-background-size: 40px 40px;
+        background-size: 40px;
+    }
+    .about-awards__description p {
+        font-size: 14px;
+        line-height: 1.43;
+    }
+    .about-awards__description p:first-of-type {
+        padding: 0 0 27px 0;
+    }
+    .about-awards-author {
+        font-size: 13px;
+        line-height: 1.31;
+        opacity: 0.7;
+    }
+    .nominations-awards {
+        margin: 100px auto 0 auto;
+    }
+    .nominations-list {
+        width: 98%;
+        max-width: 572px;
+    }
+    .nominations-list-link {
+        width: 93%;
+        padding: 19px 0 19px 5%;
+        font-size: 19px;
+        line-height: 0.63;
+        letter-spacing: -1.5px;
+        margin: 0;
+    }
+    .nominations-list-item:last-child {
+        text-align: center;
+    }
+    .nominations-list-item--sub .nominations-list-link::before {
+        -webkit-background-size: 11px 11px;
+        background-size: 11px;
+        right: 5%;
+    }
+    .sub-nominations-list {
+        top: 49px;
+    }
+    .sub-nominations-list-link {
+        font-size: 14px;
+        padding: 7.5px 5px 7.5px 11%;
+    }
+    .nominee-item-img-name {
+        font-size: 17px;
+        bottom: 5%;
+        left: 11%;
+    }
+    .nominee-item-img-name--ok {
+        font-size: 33px;
+        bottom: 17%;
+    }
+    .rewards-wrap {
+        margin-top: 43px;
+    }
+    .rewards-wrap-left-img {
+        width: 14px;
+    }
+    .rewards-wrap-right-img {
+        width: 15px;
+    }
+    .rewards-wrap-left-text {
+        font-size: 15px;
+        margin: 3px 0 0 13px;
+        letter-spacing: -1.5px;
+    }
+    .nominations-list {
+        margin-bottom: 46.5px;
+    }
+    .nominee-awards {
+        margin: 0 auto;
+    }
+    .nominations-awards {
+        margin: 0 auto;
+    }
+    .nominations-awards {
+        margin-top: 80px;
+    }
+    .main-block__partners {
+        padding: 0 20px;
+        max-width: -webkit-calc(100% - 40px);
+        max-width: calc(100% - 40px);
+        margin: 0;
+    }
+    .partners {
+        margin: 90px 0 0 0;
+    }
+    .block-articles-title {
+        font-size: 18px;
+        margin: 15px 0 0 0;
+    }
+    .block-articles-description {
+        font-size: 14px;
+        margin: 10px 0 0 0;
+    }
+    .block-articles-btn-show-more {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .main-block__block-articles {
+        padding: 0 20px;
+        max-width: -webkit-calc(100% - 40px);
+        max-width: calc(100% - 40px);
+        margin: 0;
+    }
+    .gallery {
+        margin: 80px 0 80px 0;
+    }
+    .main-block__gallery {
+        padding: 0 20px;
+        max-width: -webkit-calc(100% - 40px);
+        max-width: calc(100% - 40px);
+        margin: 0;
+    }
+    .flipster__button--prev {
+        left: 15%;
+    }
+    .flipster__button--next {
+        right: 15%;
+    }
+    .flipster--coverflow .flipster__item__content img:only-child {
+        width: 65%;
+        margin: 0 auto;
+    }
+    .flipster--coverflow .flipster__item--future .flipster__item__content {
+        -webkit-transform: scale(.75) rotateY(-15deg);
+        transform: scale(.75) rotateY(-15deg);
+    }
+    .flipster--coverflow .flipster__item--past .flipster__item__content {
+        -webkit-transform: scale(.75) rotateY(15deg);
+        transform: scale(.75) rotateY(15deg);
+    }
+    .gallery-description {
+        max-width: 460px;
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .site-list-first-item {
+        display: none;
+    }
+    .site-list {
+        display: none;
+    }
+    .main-nav__toggle-open {
+        display: block;
+    }
+
+}
+@media screen and (max-width: 650px) {
+    .nominations-list-link {
+        font-size: 15px;
+    }
+    .sub-nominations-list {
+        top: 47px;
+    }
+    .sub-nominations-list-link {
+        font-size: 14px;
+    }
+    .block-articles-banner {
+        display: none;
+    }
+    .mobile-banner {
+        display: block;
+    }
+    .block-articles-list-wrap {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .main-header {
+        background-image: url("../img/awards-bg-phone.jpg");
+    }
+    .date-awards {
+        width: 145px;
+        margin: 128px auto 0 auto;
+    }
+    .date-awards::before {
+        width: 30px;
+    }
+    .main-header__container {
+        width: 82%;
+        padding: 35px 0 30px 0;
+    }
+    .ok-awards-logo {
+        display: block;
+        width: 305px;
+        margin: 9px auto 0 auto;
+    }
+    .ok-awards-logo-img {
+        width: 100%;
+        height: auto;
+    }
+    .show-more {
+        margin: 102.5px auto 0 auto;
+    }
+    .acmg-list {
+        margin: 0 5%;
+    }
+    .acmg-list {
+        position: relative;
+        width: 90%;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+    }
+    .acmg-list::before {
+        content: "";
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #ffffff;
+    }
+    .acmg-list__item {
+        width: 50%;
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        -webkit-order: 0;
+        order: 0;
+        margin: 0;
+    }
+    .acmg-list__item--social {
+        width: 50%;
+        margin: 5px 0 5px 0;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+    }
+    .acmg-list__item--brand {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+        margin: 40px 0 0 0;
+        width: 100%;
+    }
+    .brand-appearing {
+        width: 270px;
+    }
+    .brands-list__item--company+.brand-appearing {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .brands-list {
+        width: 100%;
+        -ms-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        max-width: 330px;
+    }
+    .main-block {
+        width: -webkit-calc(100% - 37.5px);
+        width: calc(100% - 37.5px);
+        max-width: 100% ;
+        padding-left: 37.5px;
+    }
+    .about-awards {
+        margin: 73.5px auto 0 auto;
+    }
+    .h2 {
+        font-size: 23px;
+        line-height: 0.83;
+    }
+    .about-awards__body {
+        margin: 38px auto 0 auto;
+        display: block;
+    }
+    .about-awards-img-wrapper {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0;
+    }
+    .about-awards__description {
+        width: 100%;
+        max-width: 100%;
+        margin: 37.5px 0 0 0;
+        padding: 49.5px 0 0 0;
+        -webkit-background-size: 40px 40px;
+        background-size: 40px;
+    }
+    .about-awards__description p {
+        font-size: 14px;
+        line-height: 1.43;
+    }
+    .about-awards__description p:first-of-type {
+        padding: 0 0 22px 0;
+    }
+    .about-awards-author {
+        font-size: 13px;
+        line-height: 1.31;
+        opacity: 0.7;
+    }
+    .nominations-list {
+        display: none;
+    }
+    .main-nav {
+        height: 36px;
+    }
+    .main-nav-open {
+        height: 100%;
+    }
+    .nominations-awards {
+        margin-top: 0;
+    }
+    .nominee-awards__body-wrap {
+        overflow-x: auto;
+    }
+    .nominee-awards__body {
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        width: -webkit-calc((195px * 6) + (25px * 6));
+        width: calc((195px * 6) + (25px * 6));
+    }
+    .nominee-item {
+        width: 195px;
+        margin-right: 25px;
+        padding-bottom: 70px;
+        padding-top: 25px;
+    }
+    .nominee-item-img-name {
+        opacity: 1;
+        color: #1c1c1c;
+        bottom: -35px;
+        left: 0;
+    }
+    .nominee-item-img-name--ok {
+        font-size: 33px;
+        color: #ff372a;
+        top: -16px;
+        left: 170px;
+    }
+    .nominee-awards {
+        margin: 46.5px 37.5px 0 0;
+    }
+    .rewards-wrap {
+        margin-top: 70px;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .rewards-wrap-left {
+        width: 100%;
+    }
+    .rewards-wrap-right {
+        width: 100%;
+        margin: 22.5px 0 0 0;
+    }
+    .rewards-wrap-left-img {
+        width: 17px;
+    }
+    .rewards-wrap-right-img {
+        width: 18px;
+    }
+    .rewards-wrap-left-text,
+    .rewards-wrap-right-text {
+        font-size: 19px;
+        color: #606060;
+        margin: 0 0 0 14px;
+    }
+    .main-block__about-awards {
+        padding: 0 37.5px;
+        width: -webkit-calc(100% - 75px);
+        width: calc(100% - 75px);
+    }
+    .nominee-item-img--color {
+        opacity: 1;
+    }
+    .nominee-item-img--monoh {
+        opacity: 0;
+    }
+    .nominee-awards__title {
+        display: inline-block;
+    }
+    .nominee-awards__list {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .social-wrap {
+        display: block;
+    }
+    .nominee-awards__body--para {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .nominee-item-btn-vote {
+        display: block;
+        font-size: 14px;
+        color: #1c1c1c;
+        background: transparent;
+        background-image: url("../img/vote-bg.png");
+        -webkit-background-size: 100% 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: none;
+        background-position: bottom center;
+        padding: 0 0 10px 0;
+        text-decoration: none;
+        position: absolute;
+        bottom: -70px;
+    }
+    .main-block__partners {
+        padding: 0 35px;
+        max-width: -webkit-calc(100% - 70px);
+        max-width: calc(100% - 70px);
+        margin: 0;
+    }
+    .partners {
+        margin: 69px 0 0 0;
+    }
+    .partners-item {
+        width: 30%;
+        margin-right: 5%;
+        margin-top: 50px;
+    }
+    .partners-item:nth-child(4n+4) {
+        margin-right: 5%;
+    }
+    .partners-item:nth-child(3n+3) {
+        margin-right: 0;
+    }
+    .main-block__block-articles {
+        padding: 0 35px;
+        max-width: -webkit-calc(100% - 70px);
+        max-width: calc(100% - 70px);
+        margin: 0;
+    }
+    .block-articles {
+        margin: 75px 0 0 0;
+    }
+    .block-articles-item {
+        margin: 30px 0 0 0;
+    }
+    .pop-up-nominee {
+        width: -webkit-calc(100% - 75px);
+        width: calc(100% - 75px);
+        padding: 0 37.5px;
+    }
+    .pop-up-nominee-wrap {
+        padding: 37.5px;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .pop-up-nominee-wrap-left {
+        width: 100%;
+        margin-right: 0;
+    }
+    .pop-up-nominee-wrap-right {
+        width: 100%;
+    }
+    .pop-up-nominee-name {
+        font-size: 17px;
+        padding-bottom: 13px;
+        margin-top: 13px;
+    }
+    .pop-up-nominee-btn-block {
+        margin-top: 25px;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .pop-up-nominee-description-wrap {
+        height: auto;
+        margin-top: 13px;
+    }
+    .pop-up-nominee-description {
+        font-size: 14px;
+        width: 100%;
+    }
+    .pop-up-link-file-ok {
+        margin-left: 0;
+    }
+    .pop-up-nominee-text-on-img {
+        right: -15px;
+    }
+    .pop-up-nominee-social-wrap-list {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .main-block__gallery {
+        padding: 0 35px;
+        max-width: -webkit-calc(100% - 70px);
+        max-width: calc(100% - 70px);
+        margin: 0;
+    }
+    .gallery-slide {
+        margin: 35px 0 0 0;
+    }
+    .flipster__button--prev {
+        left: 0;
+    }
+    .flipster__button--next {
+        right: 0;
+    }
+    .flipster--coverflow .flipster__item__content img:only-child {
+        width: 70%;
+    }
+    .gallery-description {
+        bottom: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .flipster--coverflow .flipster__item__content img:only-child {
+        width: 62%;
+    }
+}
+@media screen and (max-width: 440px) {
+    .partners-item {
+        width: 45%;
+        margin-right: 10%;
+        margin-top: 50px;
+    }
+    .partners-item:nth-child(4n+4) {
+        margin-right: 0;
+    }
+    .partners-item:nth-child(3n+3) {
+        margin-right: 10%;
+    }
+    .partners-item:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    .flipster--coverflow .flipster__item__content img:only-child {
+        width: 53%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .flipster--coverflow .flipster__item__content img:only-child {
+        width: 44%;
+    }
+}
+@media screen and (max-width: 340px) {
+    .ok-awards-logo {
+        width: 280px;
+    }
+    .pop-up-nominee-wrap {
+        padding: 20px;
+    }
+    .flipster--coverflow .flipster__item__content img:only-child {
+        width: 44%;
+    }
+    .flipster__button--prev {
+        left: -10%;
+    }
+    .flipster__button--next {
+        right: -10%;
+    }
+    .gallery-description {
+        bottom: 0px;
+    }
+}
+@media screen and (max-width: 293px) {
+    .brands-list__item--company+.brand-appearing {
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+}
