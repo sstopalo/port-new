@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1544px" height="623px" viewBox="0 0 1544 623" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>DH Head</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-5.9%" y="-13.2%" width="111.8%" height="126.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="25.9095982 0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699999988">
+        <g id="Hiring-Desktop-v.1" transform="translate(-188.000000, -204.000000)" stroke="#959595" stroke-width="7">
+            <g id="Group-6" transform="translate(269.000000, 208.000000)">
+                <path d="M0,0 L279.813262,0 C379.887441,0 457.436209,25.7295879 512.46189,77.1895357 C567.487572,128.649483 595,202.613285 595,299.08316 C595,396.113906 567.260821,471.690189 511.781631,525.814276 C456.302441,579.938363 378.980425,607 279.813262,607 L0,607 L0,0 Z M187,142 L187,461 L245.333333,461 C339.77825,461 387,406.381994 387,297.144343 C387,247.08861 374.646322,208.717732 349.938596,182.030559 C325.230871,155.343386 290.362798,142 245.333333,142 L187,142 Z M1382,615 L1187.82301,615 L1187.82301,380.276507 L955.176991,380.276507 L955.176991,615 L761,615 L761,8 L955.176991,8 L955.176991,238.516979 L1187.82301,238.516979 L1187.82301,8 L1382,8 L1382,615 Z" id="DH-Head" filter="url(#filter-1)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

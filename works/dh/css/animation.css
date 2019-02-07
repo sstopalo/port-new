@@ -1,0 +1,190 @@
+.img_bg {
+  animation-name: move-img_bg;
+  animation-duration: 2s;
+  animation-fill-mode: forwards; }
+
+@keyframes move-img_bg {
+    to {
+        transform: translateY(-115px);  /* перемещение .img_bg вверх на 115px */ 
+    }
+}
+
+.span_1 {
+	-webkit-animation-name: span_1; /* Chrome, Safari, Opera */ 
+	-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */ 
+	animation-name: span_1; 
+	animation-duration: 1s;
+}
+
+@-webkit-keyframes span_1 {   /* плавное появление элемента .span_1 на странице */
+0% {opacity: 0;}
+100% {opacity:1;} 
+} 
+
+@keyframes span_1 { 
+0% {opacity: 0;}
+100% {opacity:1;} 
+}
+
+.img_logo,
+.img_menu {
+	-webkit-animation-name: span_2; /* Chrome, Safari, Opera */ 
+	-webkit-animation-duration: 2s; /* Chrome, Safari, Opera */ 
+	animation-name: span_2; 
+	animation-duration: 2s;
+}
+@-webkit-keyframes span_2 { 
+0% {opacity: 0;} 
+100% {opacity:1;} 
+} 
+
+@keyframes span_2 { 
+0% {opacity: 0;} 
+100% {opacity:1;} 
+}
+
+.span_2,
+.span_3 {
+	-webkit-animation-name: span_7; /* Chrome, Safari, Opera */ 
+	-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */ 
+	animation-name: span_7; 
+	animation-duration: 1s;
+}
+@-webkit-keyframes span_7 { 
+0% {opacity: 0;}
+50% {opacity: 0.2;}  
+100% {opacity:1;} 
+} 
+
+@keyframes span_7 { 
+0% {opacity: 0;}
+50% {opacity: 0.2;}   
+100% {opacity:1;} 
+}
+
+
+.span_4 {
+	-webkit-animation-name: span_8; /* Chrome, Safari, Opera */ 
+	-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */ 
+	animation-name: span_8; 
+	animation-duration: 1s;
+}
+@-webkit-keyframes span_8 { 
+0% {opacity: 0;}
+50% {opacity: 0.2;}  
+100% {opacity:0.3;} 
+} 
+
+@keyframes span_8 { 
+0% {opacity: 0;}
+50% {opacity: 0.2;}   
+100% {opacity:0.3;} 
+}
+
+.header_items,
+.h_c_h2_right {
+	-webkit-animation-name: span_3 /* Chrome, Safari, Opera */ 
+	-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */ 
+	animation-name: span_3; 
+	animation-duration: 1s;
+}
+@-webkit-keyframes span_3 { 
+0% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0.1;}
+70% {opacity: 0.2;}    
+100% {opacity:1;} 
+} 
+
+@keyframes span_3 { 
+0% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0.1;}
+70% {opacity: 0.2;}    
+100% {opacity:1;} 
+}
+
+.h_c_h2_left {
+	-webkit-animation-name: span_4; /* Chrome, Safari, Opera */ 
+	-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */ 
+	animation-name: span_4; 
+	animation-duration: 1s;
+}
+@-webkit-keyframes span_4 { 
+0% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0.1;}
+70% {opacity: 0.2;}
+80% {opacity: 0.3;}
+90% {opacity: 0.4;}    
+100% {opacity:1;} 
+} 
+
+@keyframes span_4 { 
+0% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0.1;}
+70% {opacity: 0.2;} 
+80% {opacity: 0.3;}
+90% {opacity: 0.4;}    
+100% {opacity:1;} 
+}
+
+.s_c_h2_top {
+	-webkit-animation-name: span_5 /* Chrome, Safari, Opera */ 
+	-webkit-animation-duration: 2s; /* Chrome, Safari, Opera */ 
+	animation-name: span_5; 
+	animation-duration: 2s;
+}
+@-webkit-keyframes span_5 { 
+0% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0.1;}
+70% {opacity: 0.2;}
+80% {opacity: 0.3;}
+90% {opacity: 0.4;}    
+100% {opacity:0.5;} 
+} 
+
+@keyframes span_5 { 
+0% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0.1;}
+70% {opacity: 0.2;} 
+80% {opacity: 0.3;}
+90% {opacity: 0.4;}    
+100% {opacity:0.5;} 
+}
+
+.s_c_h2_bottom,
+.img_main_logo {
+	-webkit-animation-name: span_6 /* Chrome, Safari, Opera */ 
+	-webkit-animation-duration: 3s; /* Chrome, Safari, Opera */ 
+	animation-name: span_6; 
+	animation-duration: 3s;
+}
+@-webkit-keyframes span_6 { 
+0% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0.3;}
+60% {opacity: 0.4;}
+70% {opacity: 0.5;}
+80% {opacity: 0.6;}
+90% {opacity: 0.7;}    
+100% {opacity:1;} 
+} 
+
+@keyframes span_6 { 
+0% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0.3;}
+60% {opacity: 0.4;}
+70% {opacity: 0.5;}
+80% {opacity: 0.6;}
+90% {opacity: 0.7;}    
+100% {opacity:1;} 
+}
+
+
