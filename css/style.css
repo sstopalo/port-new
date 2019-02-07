@@ -325,9 +325,9 @@ body {
     width: 48%;
     margin: 50px 4% 0 0;
 }
-/*.portfolio .item:nth-of-type(n+5) {*/
-    /*display: none;*/
-/*}*/
+.portfolio .item:nth-of-type(n+5) {
+    display: none;
+}
 .portfolio .item .item {
     display: list-item;
 }
@@ -367,7 +367,6 @@ body {
     z-index: 2;
     top: 0;
     bottom: 0;
-    /*right: 0;*/
     right: -65%;
     background: #fff;
     transition: 1s;
@@ -380,7 +379,7 @@ body {
 .portfolio .item .link .info .h4-title {
     font-family: Core-Sans-N65-Bold, Arial, sans-serif;
     font-size: 18px;
-    line-height: 1em;
+    line-height: 1.25em;
     color: #000;
 }
 .portfolio .item .link .info .description {
