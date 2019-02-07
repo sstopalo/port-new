@@ -1,0 +1,695 @@
+@media screen and (max-width: 1700px) {
+    .specification-list .slick-arrow.slick-next {
+        right: 0;
+    }
+    .specification-list .slick-arrow.slick-prev {
+        left: 0;
+    }
+    .specification-item__wrap {
+        padding: 0 60px;
+    }
+    .interview--2 {
+        background-position: top 0 right -210px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .interview-introduction {
+        font-size: 34px;
+    }
+    .interview-wrap-text {
+        width: 40%;
+    }
+    .interview--1 {
+        background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/bg1-desk--1500.jpg) no-repeat top left/cover;
+    }
+    .interview--2 {
+        background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/bg2-desk--1500.jpg) no-repeat top right/cover;
+    }
+    .interview-answer {
+        font-size: 16px;
+        line-height: 1.375em;
+    }
+    .interview--4 {
+        background-position: top 0 right -120px;
+    }
+}
+@media screen and (max-width: 1370px) {
+    .info-block--wrap {
+        margin-left: 0;
+        background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/huawei-photo--mobile.png) no-repeat bottom center;
+        height: 730px;
+    }
+    .info-block--img-text {
+        display: none;
+    }
+    .info-block--img-wrap {
+        position: static;
+        margin: 0 auto;
+        max-width: 539px;
+        padding-top: 80px;
+    }
+    .info-block--img-logo,
+    .info-block--img-tagline {
+        width: 100%;
+        height: auto;
+    }
+    .flipster__button--next {
+        right: 20%;
+    }
+    .flipster__button--prev {
+        left: 20%;
+    }
+    .wrap-video {
+        width: 1100px;
+        height: 550px;
+        background-size: 100%;
+    }
+    .video-cover {
+        background-size: 100%;
+    }
+    .interview--3 {
+        background-position: top 0 left -82px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .interview-question--margin-top {
+        margin: 40px 0 0 0;
+    }
+    .btn-read-more {
+        margin: 55px 0 0 0;
+    }
+    .flipster__button--next {
+        right: 17%;
+    }
+    .flipster__button--prev {
+        left: 17%;
+    }
+    .wrap-video {
+        width: 1000px;
+        height: 500px;
+        background-size: 100%;
+    }
+    .video-cover {
+        background-size: 100%;
+    }
+    .header {
+        padding-bottom: 130px;
+    }
+    .interview--4 {
+        background-position: top 0 right -138px;
+    }
+    .interview--3 {
+        background-position: top 0 left -150px;
+    }
+    .interview-introduction {
+         font-size: 30px;
+    }
+
+}
+@media screen and (max-width: 1050px) {
+    .interview-introduction {
+        font-size: 28px;
+        line-height: 1.32em;
+    }
+    .interview-question {
+        font-size: 20px;
+        line-height: 1.2em;
+    }
+    .flipster__button--next {
+        right: 10%;
+    }
+    .flipster__button--prev {
+        left: 10%;
+    }
+    .wrap-video {
+        width: 900px;
+        height: 440px;
+        background-size: 100%;
+    }
+    .video-cover {
+        background-size: 100%;
+    }
+    .thumb-wrap iframe {
+        top: 21px;
+        left: 48px;
+        width: 89%;
+    }
+    .interview--1 {
+        background-position: top 0 left -55px;
+    }
+    .interview--2 {
+        background-position: top 0 right -100px;
+    }
+    .interview--3 {
+        background-position: top 0 left -150px;
+    }
+    .interview-introduction:before {
+        font-size: 96px;
+        left: -55px;
+    }
+    .interview-introduction:after {
+        font-size: 96px;
+        right: -36px;
+    }
+    .interview-wrap-text {
+        padding: 0 36px 0 52px;
+    }
+    .interview-wrap-hide--1 {
+        width: calc((100% - 40%) - 88px );
+    }
+    .interview-wrap-hide--2 {
+        width: calc((100% - 36%) - 88px );
+    }
+    .interview-wrap-hide--3 {
+        width: calc((100% - 40%) - 88px );
+    }
+    .interview-wrap-hide--4 {
+        width: calc((100% - 40%) - 88px );
+    }
+}
+@media screen and (max-width: 950px) {
+    .interview--3 {
+        background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/bg3-ipad.jpg) no-repeat top left/cover;
+    }
+    .interview--4 {
+        background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/bg4-ipad.jpg) no-repeat top right/cover;
+    }
+    .specification-item__wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 700px;
+    }
+    .specification-item__right {
+        order: 1;
+        width: 77%;
+        margin: 0;
+    }
+    .specification-item__left {
+        order: 2;
+    }
+    .specification-item__left-1 {
+        width: 50%;
+    }
+    .specification-item__left-2 {
+        width: 60%;
+    }
+    .specification-item__left-3 {
+        width: 75%;
+    }
+    .specification-item__left-4 {
+        width: 75%;
+    }
+    .specification-item__left-5 {
+        width: 75%;
+    }
+    .specification-item__title {
+        font-size: 28px;
+        margin: 0 0 45px 0;
+    }
+    .specification-item__description {
+        font-size: 18px;
+        line-height: 1.22em;
+    }
+    .specification-list .slick-arrow.slick-next {
+        right: 20px;
+    }
+    .specification-list .slick-arrow.slick-prev {
+        left: 20px;
+    }
+    .specification-item__wrap {
+        padding: 0 80px;
+    }
+    .gallery-slider--wrap {
+        padding: 65px 0;
+    }
+    .flipster__item img {
+        max-width: 90%;
+        margin: 0 5%;
+    }
+    .flipster--carousel .flipster__item--future-1 .flipster__item__content {
+        transform: translateX(5%) rotateY(0deg) scale(.8);
+    }
+    .flipster--carousel .flipster__item--future-2 .flipster__item__content {
+        transform: translateX(25%) rotateY(0deg) scale(.65);
+    }
+    .flipster--carousel .flipster__item--past-1 .flipster__item__content {
+        transform: translateX(-5%) rotateY(0deg) scale(.8);
+    }
+    .flipster--carousel .flipster__item--past-2 .flipster__item__content {
+        transform: translateX(-25%) rotateY(0deg) scale(.65);
+    }
+    .flipster__button--next {
+        right: 0;
+    }
+    .flipster__button--prev {
+        left: 0;
+    }
+    .wrap-video {
+        width: 725px;
+        height: 365px;
+        background-size: 100%;
+    }
+    .video-cover {
+        background-size: 100%;
+    }
+    .interview-introduction-full {
+        font-size: 22px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .wrapper-1460 {
+        padding: 0 15px;
+    }
+    .footer-wrap {
+        padding: 160px 0 145px 0;
+    }
+    .footer__forbes-logo {
+        display: block;
+        margin: 85px auto 0 auto;
+    }
+    .wrapper-1596--info-block {
+        padding: 0;
+    }
+    .wrap-800--with-padding {
+        padding: 0 40px;
+    }
+    .wrap-text-interview {
+        padding: 150px 0;
+    }
+    .navigation-top,
+    .navigation-bottom {
+        width: calc(100% - 40px);
+    }
+    .btn-to-top,
+    .btn-to-bottom {
+        background-position-x: 58%;
+    }
+    .main-menu-list {
+        padding: 0 35px;
+    }
+    .wrap-header-logo--img {
+        width: 90%;
+    }
+    .interview--4 {
+        background-position: top 0 right -55px;
+    }
+    .interview--1 {
+        background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/bg1-ipad.jpg) no-repeat top left/cover;
+    }
+    .interview--1 {
+        padding: 280px 0 220px 0;
+    }
+    .interview-wrap-text--1 {
+        width: 60%;
+    }
+    .interview-wrap-hide--1 {
+        width: calc((100% - 60%) - 88px );
+    }
+    .interview--2 {
+        background: url(http://cdn.forbes.ru/special/huaweimate20pro/img/bg2-ipad.jpg) no-repeat top right/cover;
+    }
+    .interview--2 {
+        padding: 150px 0 120px 0;
+    }
+    .interview-wrap-text--2 {
+        width: 50%;
+    }
+    .interview-wrap-hide--2 {
+        width: calc((100% - 50%) - 88px );
+    }
+    .interview--3 {
+        padding: 130px 0 100px 0;
+    }
+    .interview--3 {
+        background-position: top 0 left 0px;
+    }
+    .interview--4 {
+        padding: 105px 0 103px 0;
+    }
+}
+@media screen and (max-width: 760px) {
+    .wrap-video {
+        width: 625px;
+        height: 310px;
+        background-size: 100%;
+    }
+    .video-cover {
+        background-size: 100%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .interview--4 {
+        background-position: top 0 right -81px;
+    }
+    .interview--3 {
+        background-position: top 0 left -55px;
+    }
+    .interview--3 {
+        background-position: top 0 left -32px;
+        color: black;
+    }
+}
+@media screen and (max-width: 660px) {
+    .interview--1,
+    .interview--2,
+    .interview--3,
+    .interview--4 {
+        background: none;
+        background-color: #0e0f0f;
+        padding: 0;
+    }
+    .wrapper-1460 {
+        padding: 0;
+    }
+    .interview-wrap {
+        flex-wrap: wrap;
+    }
+    .interview-wrap-hide {
+        display: none;
+    }
+    .interview-wrap-text {
+        width: 100%;
+        order: 1;
+        padding: 30px 40px;
+    }
+    .wrap-btn-read-more {
+        order: 3;
+    }
+    .btn-read-more {
+        margin: 40px 0;
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .interview-wrap-img {
+        display: block;
+    }
+    .interview-wrap-text--1 {
+        background-color: #3b3b40;
+    }
+    .interview-wrap-text--2 {
+        background-color: #151515;
+    }
+    .interview-wrap-text--3 {
+        background-color: #3b3b40;
+    }
+    .interview-wrap-text--4 {
+        background-color: #1c1d22;
+    }
+    .interview-introduction {
+        font-size: 20px;
+        line-height: 1.4em;
+        text-align: left;
+    }
+    .interview-question {
+        text-align: left;
+    }
+    .interview-answer {
+        line-height: 1.25em;
+        text-align: left;
+    }
+    .footer-wrap {
+        padding: 80px 0 90px 0;
+    }
+    .footer__learn-more-btn {
+        width: 100%;
+        border-radius: 0;
+    }
+    .social-wrap {
+        margin: 65px 0 0 0;
+    }
+    .footer__forbes-logo {
+        width: 180px;
+        margin: 70px auto 0 auto;
+    }
+    .info-block--img-wrap {
+        padding: 60px 0 0 0;
+    }
+    .info-block--wrap {
+        background-size: contain;
+    }
+    .wrapper-1596--info-block {
+        padding: 0 20px;
+    }
+    .specification-item__wrap {
+        height: 680px;
+        padding: 0 47px;
+    }
+    .specification-item__right {
+        width: 100%;
+    }
+    .specification-list .slick-arrow.slick-next {
+        right: 0;
+    }
+    .specification-list .slick-arrow.slick-prev {
+        left: 0;
+    }
+    .specification-item__left-1 {
+        width: 65%;
+    }
+    .specification-item__left-2 {
+        width: 70%;
+    }
+    .specification-item__left-3 {
+        width: 100%;
+    }
+    .specification-item__left-4 {
+        width: 100%;
+    }
+    .specification-item__left-5 {
+        width: 100%;
+    }
+    .wrap-800--with-padding {
+        padding: 0 20px;
+    }
+    .wrap-text-interview {
+        padding: 95px 0;
+    }
+    .navigation-top,
+    .navigation-bottom {
+        width: calc(100% - 20px);
+    }
+    .nav-menu {
+        width: 100%;
+        background: #0e0f0f;
+        padding: 0;
+    }
+    .main-menu-list {
+        align-items: center;
+        width: calc(100% - 20px);
+        height: 60px;
+        margin: 0;
+        border-radius: 0;
+        padding: 0 0 0 20px;
+    }
+    .main-menu-item--toggle {
+        display: block;
+    }
+    .main-menu-link {
+        display: none;
+    }
+    .wrap-video {
+        width: 520px;
+        height: 255px;
+        background-size: 100%;
+        margin: 40px auto 0 auto;
+    }
+    .video-cover {
+        background-size: 100%;
+    }
+    .header {
+        padding-bottom: 50px;
+    }
+    .thumb-wrap iframe {
+        top: 13px;
+        left: 30px;
+    }
+    .navigation-top-fix-top {
+        top: 60px;
+    }
+    .interview-introduction {
+        font-size: 19px;
+    }
+    .interview-introduction:before {
+        font-size: 62px;
+        left: -34px;
+    }
+    .interview-introduction:after {
+        font-size: 62px;
+        right: -34px;
+    }
+    .interview-introduction-full {
+        text-align: left;
+    }
+}
+@media screen and (max-width: 560px) {
+    .social-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .info-block--wrap {
+        height: 630px;
+    }
+    .specification-item__wrap {
+        padding: 0 25px;
+    }
+    .specification-item__description {
+        text-align: left;
+    }
+    .specification-item__title {
+        font-size: 24px;
+        margin: 0 0 40px 0;
+    }
+    .specification-list .slick-arrow {
+        width: 25px;
+    }
+    .specification-list .slick-arrow.slick-next {
+        right: 0;
+        background-size: 15px;
+    }
+    .specification-list .slick-arrow.slick-prev {
+        left: 0;
+        background-size: 15px;
+    }
+    .wrap-header-logo {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 50px 0 0 0;
+    }
+    .wrap-header-logo--huawei {
+        max-width: 100%;
+    }
+    .wrap-header-logo--img {
+        width: 100%;
+    }
+    .wrap-header-logo--img-forbes {
+        width: 80%;
+    }
+    .wrap-header-logo--forbes {
+        text-align: center;
+    }
+    .wrap-video {
+        width: 430px;
+        height: 212px;
+        background-size: 100%;
+    }
+    .video-cover {
+        background-size: 100%;
+    }
+
+}
+@media screen and (max-width: 460px) {
+    .info-block--wrap {
+        height: 530px;
+    }
+    .flipster__button--next,
+    .flipster__button--prev {
+        top: 70%;
+    }
+    .flipster__item img {
+        max-width: 80%;
+        margin: 0 10%;
+    }
+    .flipster--carousel .flipster__item--future-1 .flipster__item__content {
+        transform: translateX(50%) rotateY(0deg) scale(.8);
+    }
+    .flipster--carousel .flipster__item--past-1 .flipster__item__content {
+        transform: translateX(-50%) rotateY(0deg) scale(.8);
+    }
+    .flipster--carousel .flipster__item--past .flipster__item__content {
+        transform: translateX(-40%) rotateY(-20deg) scale(.5);
+    }
+    .wrap-video {
+        width: 365px;
+        height: 182px;
+        background-size: 100%;
+    }
+    .video-cover {
+        background-size: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .flipster__item img {
+        max-width: 74%;
+        margin: 0 13%;
+    }
+    .header {
+        overflow: hidden;
+    }
+    .wrap-video {
+        width: 700px;
+        height: 350px;
+        background-size: 100%;
+        margin-left: -45%;
+    }
+    .video-cover {
+        background-size: 100%;
+    }
+    .thumb-wrap iframe {
+        top: 24px;
+        left: 149px;
+        width: 55%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .info-block--wrap {
+        height: 455px;
+    }
+    .specification-item__left-1,
+    .specification-item__left-2 {
+        width: 100%;
+    }
+    .flipster__item img {
+        max-width: 68%;
+        margin: 0 16%;
+    }
+    .wrap-video {
+        width: 700px;
+        height: 350px;
+        background-size: 100%;
+        margin-left: -52%;
+    }
+    .video-cover {
+        background-size: 100%;
+    }
+    .thumb-wrap iframe {
+        top: 22px;
+        left: 163px;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .flipster__item img {
+        max-width: 60%;
+        margin: 0 20%;
+    }
+    .wrap-video {
+        width: 500px;
+        height: 249px;
+        background-size: 100%;
+        margin-left: -30%;
+    }
+    .video-cover {
+        background-size: 100%;
+    }
+    .thumb-wrap iframe {
+        top: 15px;
+        left: 88px;
+        width: 62%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .info-block--wrap {
+        height: 410px;
+    }
+    .wrap-video {
+        background-size: 100%;
+        margin-left: -37%;
+    }
+    .video-cover {
+        background-size: 100%;
+    }
+}
+
