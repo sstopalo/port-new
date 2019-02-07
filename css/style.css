@@ -325,9 +325,9 @@ body {
     width: 48%;
     margin: 50px 4% 0 0;
 }
-.portfolio .item:nth-of-type(n+5) {
-    display: none;
-}
+/*.portfolio .item:nth-of-type(n+5) {*/
+    /*display: none;*/
+/*}*/
 .portfolio .item .item {
     display: list-item;
 }
