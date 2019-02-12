@@ -4,12 +4,9 @@
     }
     .portfolio .item .link:hover {
         -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
-        -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
         box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
         -webkit-transform: scale(1);
-        -moz-transform: scale(1);
         -ms-transform: scale(1);
-        -o-transform: scale(1);
         transform: scale(1);
     }
     .portfolio .item .link:hover .info {
@@ -30,6 +27,9 @@
     .skills .item:nth-of-type(5n) {
         margin: 30px 0 0 0;
     }
+    .contact .list-social {
+        max-width: 430px;
+    }
 }
 @media screen and (max-width: 950px) {
     .header {
@@ -39,7 +39,12 @@
         color: #000;
     }
     .header .col-2 {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
         align-items: stretch;
     }
     .header .col-2 .avatar {
@@ -47,6 +52,7 @@
         padding: 160px 0 0 0;
         margin: 0 auto;
         min-height: 410px;
+        -webkit-box-sizing: padding-box;
         box-sizing: padding-box;
     }
     .header .col-2 .info {
@@ -56,9 +62,11 @@
         padding: 40px 0 100px 0;
     }
     .header .col-2 .avatar .img {
+        -webkit-box-shadow: 0 0 0 30px #764DFA, 0 0 0 100px #fff, 0 0 0 110px #764DFA;
         box-shadow: 0 0 0 30px #764DFA, 0 0 0 100px #fff, 0 0 0 110px #764DFA;
     }
     .header .col-2 .avatar .img:hover {
+        -webkit-box-shadow: 0 0 0 30px #fff, 0 0 0 100px #764DFA, 0 0 0 110px #fff;
         box-shadow: 0 0 0 30px #fff, 0 0 0 100px #764DFA, 0 0 0 110px #fff;
     }
     .btn-scroll-down {
@@ -85,9 +93,11 @@
         width: 100%;
     }
     .header .col-2 .avatar .img {
+        -webkit-box-shadow: 0 0 0 30px #764DFA, 0 0 0 50px #fff;
         box-shadow: 0 0 0 30px #764DFA, 0 0 0 50px #fff;
     }
     .header .col-2 .avatar .img:hover {
+        -webkit-box-shadow: 0 0 0 30px #fff, 0 0 0 50px #764DFA;
         box-shadow: 0 0 0 30px #fff, 0 0 0 50px #764DFA;
     }
     .btn-scroll-down {
@@ -147,12 +157,17 @@
     .contact .list .item .text {
         font-size: 18px;
     }
+    .contact .list-social {
+        max-width: 333px;
+    }
 }
 @media screen and (max-width: 560px) {
     .header .col-2 .avatar .img {
+        -webkit-box-shadow: 0 0 0 30px #764DFA;
         box-shadow: 0 0 0 30px #764DFA;
     }
     .header .col-2 .avatar .img:hover {
+        -webkit-box-shadow: 0 0 0 30px #764DFA;
         box-shadow: 0 0 0 30px #764DFA;
     }
     .header {
@@ -274,6 +289,8 @@
         padding: 75px 0;
     }
     .contact .list {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin: 0;
     }
@@ -283,6 +300,9 @@
     }
     .contact .list .item .text {
         margin: 8px 0 0 0;
+    }
+    .contact .list-social {
+        max-width: 200px;
     }
     .footer {
         padding: 10px 0;
