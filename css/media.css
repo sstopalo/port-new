@@ -30,6 +30,9 @@
     .skills .item:nth-of-type(5n) {
         margin: 30px 0 0 0;
     }
+    .contact .list-social {
+        max-width: 430px;
+    }
 }
 @media screen and (max-width: 950px) {
     .header {
@@ -146,6 +149,9 @@
     }
     .contact .list .item .text {
         font-size: 18px;
+    }
+    .contact .list-social {
+        max-width: 333px;
     }
 }
 @media screen and (max-width: 560px) {
@@ -283,6 +289,9 @@
     }
     .contact .list .item .text {
         margin: 8px 0 0 0;
+    }
+    .contact .list-social {
+        max-width: 200px;
     }
     .footer {
         padding: 10px 0;
