@@ -225,9 +225,9 @@
         margin: 75px 0 0 0;
     }
     .skills .item {
-        width: 32%;
-        margin: 30px 2% 0 0;
-        max-height: 125px;
+        width: 30%;
+        margin: 30px 3.3% 0 0;
+        max-height: 110px;
     }
     .skills .item:nth-of-type(6n) {
         margin: 30px 2% 0 0;
