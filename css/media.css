@@ -160,6 +160,13 @@
     .contact .list-social {
         max-width: 333px;
     }
+    .skills .img {
+        display: block;
+        height: auto;
+        max-height: 125px;
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 560px) {
     .header .col-2 .avatar .img {

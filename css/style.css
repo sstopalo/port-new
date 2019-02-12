@@ -542,8 +542,8 @@ body {
 }
 .skills .img {
     display: block;
-    height: auto;
-    max-height: 125px;
+    height: 100%;
+    max-height: none;
     width: 100%;
     margin: 0 auto;
 }
