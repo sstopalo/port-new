@@ -532,7 +532,7 @@ $(document).ready(function() {
       $countdown.setAttribute('data-function', arguments.callee.name + '()');
     }
   }
-  // countdownRun();
+  countdownRun();
 
 
 

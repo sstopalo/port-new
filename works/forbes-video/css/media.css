@@ -4194,9 +4194,6 @@
   .header-menu-content .block-links {
     display: none;
   }
-  .video-header-desktop-menu__list {
-    display: none;
-  }
   .video-main-block__header {
     display: block;
   }
@@ -4349,6 +4346,10 @@
 
   }
   .video-main-block__main-right-wrap:last-child {
+    display: none;
+  }
+
+    .video-header-desktop-menu__list {
     display: none;
   }
 
